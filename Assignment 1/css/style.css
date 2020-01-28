@@ -1,5 +1,17 @@
-section {
-  display: flex;
+span {
+    margin:auto;
+    width: 35vw;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+article {
+
+    width: 200px;
+    height: 200px;
+    background-color: #4B2BB7;
+    border-radius:10px;
 }
 
 h1 {
