@@ -9,3 +9,8 @@ h1 {
 p {
   margin: auto;
 }
+
+footer{
+  background-color: #4B2BB7;
+  font-family: 'Open Sans', sans-serif;
+}
