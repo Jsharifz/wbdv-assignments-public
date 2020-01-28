@@ -1,3 +1,15 @@
+section {
+  display: flex;
+}
+
+h1 {
+  margin: auto;
+}
+
+p {
+  margin: auto;
+}
+
 footer{
   background-color: #4B2BB7;
   font-family: 'Open Sans', sans-serif;
