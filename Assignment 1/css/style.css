@@ -52,6 +52,7 @@ header h1 {
     color: #FA6797;
     margin: 0;
     padding-top: 3.5rem;
+    font-weight: bold;
 }
 
 header h2 {
@@ -61,7 +62,6 @@ header h2 {
     font-size: 4.5rem;
     width: 10ch;
     margin: 0 0 15rem 0;
-    
 }
 
 @media only screen and (max-width: 800px) {
