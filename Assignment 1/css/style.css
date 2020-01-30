@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -69,3 +70,33 @@ header h2 {
       display: none;
     }
   }
+
+span {
+    margin:auto;
+    width: 35vw;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+article {
+
+    width: 200px;
+    height: 200px;
+    background-color: #4B2BB7;
+    border-radius:10px;
+}
+
+h1 {
+  margin: auto;
+}
+
+p {
+  margin: auto;
+}
+
+footer{
+  background-color: #4B2BB7;
+  font-family: 'Open Sans', sans-serif;
+}
+
