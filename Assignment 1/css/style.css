@@ -1,3 +1,7 @@
+* {
+    border: 1px red solid;
+}
+
 
 body {
     margin: 0;
@@ -73,7 +77,7 @@ header h2 {
 
 span {
     margin: auto;
-    width: 35vw;
+    width: min-content;
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr;
@@ -95,6 +99,8 @@ p {
   margin: auto;
 }
 
+
+/* alex add */
 section {
     padding: 250px;
     display: flex;
@@ -117,7 +123,10 @@ section p {
 }
 
 section span {
-    margin: -50px;
+    /* margin: -50px; */
+    margin: 0;
+    border: 1px red solid; 
+    justify-self: center;
 }
 
 span article {
@@ -135,4 +144,4 @@ footer {
   padding-top: 7.5vh;
   padding-left: 15vw;
 }
-
+/* alex add finish */
