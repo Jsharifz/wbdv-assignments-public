@@ -1,3 +1,7 @@
+* {
+    border: 1px red solid;
+}
+
 
 body {
     margin: 0;
@@ -72,15 +76,15 @@ header h2 {
   }
 
 span {
-    margin:auto;
-    width: 35vw;
+    margin: auto;
+    width: min-content;
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr;
     grid-gap: 1rem;
 }
-article {
 
+article {
     width: 200px;
     height: 200px;
     background-color: #4B2BB7;
@@ -95,8 +99,49 @@ p {
   margin: auto;
 }
 
-footer{
-  background-color: #4B2BB7;
-  font-family: 'Open Sans', sans-serif;
+
+/* alex add */
+section {
+    padding: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+section h1 {
+    font-family: 'Open Sans', sans-serif;  
+    width: 100%;  
+    padding: 10px 0;
+    font-size: 2rem;
+}
+
+section p {
+    padding: 15px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+section span {
+    /* margin: -50px; */
+    margin: 0;
+    border: 1px red solid; 
+    justify-self: center;
+}
+
+span article {
+    background: #9B53A0;
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+  background-color: #4B2BB7;
+  color: white;
+  height: 10vh;
+  font-family: 'Open Sans', sans-serif;
+  
+  padding-top: 7.5vh;
+  padding-left: 15vw;
+}
+/* alex add finish */
