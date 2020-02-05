@@ -103,17 +103,17 @@ article {
 }
 
 h1 {
-  margin: auto;
+    margin: auto;
 }
 
 p {
-  margin: auto;
+    margin: auto;
 }
 
 
 /* alex add */
 section {
-    padding: 250px;
+    padding-top: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,21 +122,22 @@ section {
 
 section h1 {
     font-family: 'Open Sans', sans-serif;  
-    width: 100%;  
+    width: 45vw;  
     padding: 10px 0;
     font-size: 2rem;
+    font-weight: 900;
 }
 
 section p {
+    width: 45vw;
     padding: 15px 0;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 section span {
-    /* margin: -50px; */
     margin: 0;
-    border: 1px red solid; 
+    padding-top: 10vh;
     justify-self: center;
 }
 
@@ -147,13 +148,13 @@ span article {
 }
 
 footer {
-  background-color: #4B2BB7;
-  color: white;
-  height: 10vh;
-  font-family: 'Open Sans', sans-serif;
+    background-color: #4B2BB7;
+    color: white;
+    height: 10vh;
+    font-family: 'Open Sans', sans-serif;
   
-  padding-top: 7.5vh;
-  padding-left: 15vw;
+    padding-top: 7.5vh;
+    padding-left: 15vw;
 }
 /* alex add finish */
 
