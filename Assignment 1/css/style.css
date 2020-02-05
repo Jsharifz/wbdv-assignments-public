@@ -161,17 +161,22 @@ footer {
 
 .section-about {
     display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: auto auto auto;
-
+    
     width: 70%;
+
     margin: auto;
     padding: 10em 0 10em 0;
+
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto;
 }
 
 .article-circle1 {
     width: 200px;
     height: 200px;
+    
+    margin-bottom: 5em;
+
     background-color: #9B53A0;
     border-radius: 50%;
 
@@ -182,6 +187,9 @@ footer {
 .article-circle2 {
     width: 200px;
     height: 200px;
+
+    margin-bottom: 5em;
+
     background-color: #9B53A0;
     border-radius: 50%;
 
@@ -192,51 +200,47 @@ footer {
 .article-circle3 {
     width: 200px;
     height: 200px;
+
     background-color: #9B53A0;
+
     border-radius: 50%;
-   
 }
 
 .card-info1 {
     padding-left: 5em;
-
+    
     grid-column: 2 / 3;
     grid-row: 1 / 2
 }
 
 .card-info2 {
     padding-left: 5em;
+
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
 
 .card-info3 {
     padding-left: 5em;
+
     grid-column: 2 / 3;
     grid-row: 3 / 4;
 }
 
 
 .job-color {
-    color: #9B53A0;
     margin-top: 0;
+    
+    color: #9B53A0;
     font-weight: lighter;
 }
-
-/* .button {
-    color: white;
-    background-color: #4B2BB7;
-    border-radius: 30%;
-    padding: 5px 15px 5px 15px;
-    text-decoration: none;
-} */
 
 .button {
     display: block;
     width: 100px;
 
     padding: 0.7em;
-    margin-top: 0;
+    margin-top: 1em;
     margin-left: 0;
     margin-right: auto;
 
@@ -246,9 +250,10 @@ footer {
     text-align: center;
 
     border: 3px solid white;
-    border-radius: 20px;
+    border-radius: 27px;
 
     background-color:#4B2BB7;
+}
 
 /* Added by Javad */
 .services {
