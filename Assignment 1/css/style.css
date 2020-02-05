@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 * {
     border: 1px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
 
 body {
     margin: 0;
@@ -367,10 +373,13 @@ footer {
 
 .blog_article{
     margin: auto;
-    width: 45vw;
+    width: fit-content;
     display: grid;
     grid-template-columns:auto auto 1fr;
     grid-template-rows:auto;
+
+    justify-content: center;
+    display: flex;
 }
 
 .blog_article article {
