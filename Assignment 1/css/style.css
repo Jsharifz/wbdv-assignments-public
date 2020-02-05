@@ -292,7 +292,6 @@ footer {
 .services span {
     /* margin: -50px; */
     margin: 0;
-    border: 1px red solid; 
     justify-self: center;
 }
 
