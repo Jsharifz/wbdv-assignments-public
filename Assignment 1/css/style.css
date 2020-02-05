@@ -1,5 +1,5 @@
 * {
-    border: 1px red solid;
+    border: 1px;
 }
 
 
@@ -239,4 +239,41 @@ footer {
 .services__text p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
+}
+.blog {
+    padding: 0 250px 0 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.blog h1 {
+    font-family: 'Open Sans', sans-serif;  
+    width: 100%;  
+    padding-top: 100px ;
+    font-size: 2rem;
+}
+.blog h2 {
+    font-family: 'Open Sans', sans-serif;  
+    width: 100%;  
+    padding: 10px 0;
+    font-size: 1.5rem;
+    color: #9B53A0;
+}
+.blog_article{
+    margin: auto;
+    width: min-content;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr;
+}
+.blog_article article {
+    background: #9B53A0;
+    width: 750px;
+    height: 300px;
+}
+.blog_text {
+    padding: 100px 250px 300px 250px; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
 }
